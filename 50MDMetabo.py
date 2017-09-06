@@ -338,6 +338,7 @@ dataframe = pandas.read_csv(url6, header=None, delim_whitespace=True)
 array = dataframe.values
 Mfeat6 = array
 Y = []
+ll = list(range(10))
 for i in ll:
     Y = Y + [i] * 200
 Y = np.array(Y)
